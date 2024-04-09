@@ -315,7 +315,11 @@ h2 {
         flex-direction: column;
     }
 
-    
+    .footer .logo img {
+        width: 50px;
+        height: auto;
+        
+    }
 
 
 
