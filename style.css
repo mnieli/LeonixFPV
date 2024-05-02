@@ -154,6 +154,7 @@ h2 {
 .products {
     padding: 0 0 80px 0;
     text-align: center;
+    background-color: rgba(255, 255, 255, 0.5);
 }
 
 .products-content {
@@ -161,28 +162,32 @@ h2 {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 20px;
+    background-color: rgba(255, 255, 255, 0.5);
 }
 
 .products-1 {
     background-color: #F7F7F7;
     padding: 20px;
+    background-color: rgba(255, 255, 255, 0.5);
 }
 
 .products-1 h4 {
     color: #1B1B1D;
     font-size: 22px;
     margin-bottom: 5px;
+    
 }
 
 .product-1 p {
     color: #FF8400;
     margin-bottom: 10px;
+    
 }
 
 .testimonio {
     text-align: center;
     padding-bottom: 80px;
-    
+    background-color: rgba(255, 255, 255, 0.5);
    
 }
 
@@ -202,7 +207,7 @@ h2 {
     padding: 20px;
     box-shadow: 0 0 20px rgba (0, 0, 0, 0.2);
     border-radius: 0px;
-    background-color: rgba(255, 255, 255, 0.5);
+   
     
     
 }
@@ -212,7 +217,7 @@ h2 {
     padding: 20px;
     box-shadow: 0 0 20px rgba (0, 0, 0, 0.2);
     border-radius: 0px;
-    background-color: rgba(255, 255, 255, 0.5);
+    
     
     
 }
@@ -230,6 +235,7 @@ h2 {
     font-size: 18px;
     text-transform: uppercase;
     margin-bottom: 10px;
+    
 }
 
 .testimonio-1 p {
@@ -239,12 +245,14 @@ h2 {
 .footer {
     border-top: 1px solid #1B1B1D2B;
     padding: 20px 0;
+    
 }
 
 .footer-content {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    background-color: rgba(255, 255, 255, 0.5);
 }
 
 .footer-content ul {
