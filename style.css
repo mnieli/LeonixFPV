@@ -17,7 +17,19 @@ img {
     max-width: 1200px;
     margin: 0 auto;
 }
+.video-fondo {
+    position: absolute; /* El video está en el fondo */
+    top: 0;
+    left: 0;
+    width: 100%; /* El video ocupa todo el ancho */
+    height: 100%; /* El video ocupa toda la altura */
+    object-fit: cover; /* Ajustar para cubrir el área sin distorsión */
+    z-index: -1; /* Asegurar que otros elementos estén por encima */
+    opacity: 0.5; /* Opcional: ajustar transparencia */
+}
+
 .header {
+    position: relative;
     background-color: #FFFAF7;
 }
 .menu {
