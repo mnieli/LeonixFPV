@@ -18,7 +18,7 @@ img {
     margin: 0 auto;
 }
 .video-fondo {
-    position: absolute; /* El video está en el fondo */
+    position: fixed; /* El video está en el fondo */
     top: 0;
     left: 0;
     width: 100%; /* El video ocupa todo el ancho */
