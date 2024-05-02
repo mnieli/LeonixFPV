@@ -25,11 +25,10 @@ img {
     height: 100%; /* El video ocupa toda la altura */
     object-fit: cover; /* Ajustar para cubrir el área sin distorsión */
     z-index: -1; /* Asegurar que otros elementos estén por encima */
-    opacity: 0.5; /* Opcional: ajustar transparencia */
+    opacity: 0.7; /* Opcional: ajustar transparencia */
 }
 
 .header {
-    position: relative;
     background-color: #FFFAF7;
 }
 .menu {
