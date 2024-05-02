@@ -18,14 +18,14 @@ img {
     margin: 0 auto;
 }
 .video-fondo {
-    position: fixed; /* El video está en el fondo */
+    position: fixed; 
     top: 0;
     left: 0;
-    width: 100%; /* El video ocupa todo el ancho */
-    height: 100%; /* El video ocupa toda la altura */
-    object-fit: cover; /* Ajustar para cubrir el área sin distorsión */
-    z-index: -1; /* Asegurar que otros elementos estén por encima */
-    opacity: 0.7; /* Opcional: ajustar transparencia */
+    width: 100%; 
+    height: 100%; 
+    object-fit: cover; 
+    z-index: -1; 
+    opacity: 0.7; 
 }
 
 .header {
